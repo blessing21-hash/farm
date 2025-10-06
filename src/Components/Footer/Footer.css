@@ -1,0 +1,105 @@
+.footer {
+  background-color: #fff;
+  color: #333;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  border-top: 4px solid #6dbf4b;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.logo-contact {
+  flex: 1 1 250px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo h2 {
+  font-size: 24px;
+  color: #6dbf4b;
+  margin: 0;
+}
+
+.tagline {
+  margin: 15px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer-links,
+.working-time,
+.address {
+  flex: 1 1 200px;
+}
+
+.footer-links h3,
+.working-time h3,
+.address h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer-links ul,
+.working-time ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li,
+.working-time li {
+  margin-bottom: 8px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #6dbf4b;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #f4c542;
+}
+
+.address p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.footer-bottom a {
+  color: #6dbf4b;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-bottom a:hover {
+  color: #f4c542;
+}

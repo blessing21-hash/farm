@@ -1,0 +1,352 @@
+/* .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  z-index: 20;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  display: flex;
+  gap: 2rem;
+  font-weight: 500;
+  list-style: none;
+}
+
+.navbar-menu li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navbar-menu li span {
+  color: white;
+}
+
+.navbar-menu li:hover {
+  color: #22c55e; /
+}
+
+.navbar-menu .active {
+  color: #EDDD5E;
+}
+
+.navbar-menu .active span {
+  color: #EDDD5E;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.phone-icon {
+  color: #22c55e;
+}
+
+.search {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.search:hover {
+  color: #22c55e;
+}
+
+.contact-btn {
+  background-color: #fde047;
+  color: black;
+  padding: 0.5rem 1.5rem;
+  border-radius: 9999px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background-color: #facc15;
+} */
+
+
+
+
+
+
+
+
+
+/* .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  color: white;
+}
+
+.logo img {
+  width: 70px;
+  height: auto;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-weight: 500;
+}
+
+.menu li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.menu li:hover {
+  color: lightgreen;
+}
+
+.menu .active {
+  color: #eddd5e;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: 14px;
+}
+
+.contact-btn {
+  background: #eddd5e;
+  color: black;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: #d4c84a;
+} */
+
+
+
+
+
+
+
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  color: white;
+}
+
+.logo img {
+  width: 70px;
+  height: auto;
+  
+}
+
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  font-weight: 500;
+}
+
+.menu li {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.menu li:hover {
+  color: lightgreen;
+}
+
+.menu .active {
+  color: #eddd5e;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 14px;
+}
+
+.contact-btn {
+  background: #eddd5e;
+  color: black;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: #d4c84a;
+} 
+
+
+/* .blessing{
+  
+  height: 100px;
+  width: 200px;
+  background: #f7f7ed;
+  border-radius: 30px;
+  /* top: 0; 
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 14px;
+  margin-top: 0;
+ 
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+   
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+
+.logo img {
+  height: 50px;
+  cursor: pointer;
+}
+
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.menu li a:hover {
+  color: #007bff;
+}
+
+.menu li.active a {
+  color: #007bff;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.phone {
+  font-size: 0.9rem;
+}
+
+.search {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.contact-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.right a button.contact-btn {
+  all: unset; 
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background-color 0.3s;
+}
+
+.right a button.contact-btn:hover {
+  background-color: #0056b3;
+} */

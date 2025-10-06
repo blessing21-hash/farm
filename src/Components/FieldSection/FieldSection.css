@@ -1,0 +1,84 @@
+.field-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: white; /* match design background */
+  color: #2c3e2d;
+  padding: 0 12rem ;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.badge {
+  display: inline-block;
+  background: #f1f5f0;
+  color: #2c3e2d;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.field-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2c3e2d;
+  margin-bottom: 3rem;
+}
+
+.field-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-align: left;
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  background: #e1d94d; /* yellow circle */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.icon-circle img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.feature-item h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+  color: #2c3e2d;
+}
+
+.feature-item p {
+  font-size: 0.9rem;
+  margin: 0.2rem 0 0;
+  color: #555;
+}
+
+.field-image img {
+  max-width: 250px;
+  height: auto;
+}

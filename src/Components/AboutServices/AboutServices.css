@@ -1,0 +1,117 @@
+.aboutservices {
+  padding: 4rem 8%;
+  background: whitesmoke;
+  text-align: center;
+  color: #2f3e2f;
+}
+
+.about-header .tag-btn {
+  background: white;
+  color: black;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+
+
+.about-header h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #394f39;
+  margin-bottom: 2rem;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+}
+
+.about-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 2rem 1.5rem;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-8px);
+}
+
+
+.about-img {
+  position: relative;
+  display: inline-block;
+}
+
+.about-img img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px solid #4d8c4d;
+  object-fit: cover;
+}
+
+
+.arrow-btn {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background: #f2e86d;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2f2f2f;
+  font-size: 1rem;
+}
+
+
+.ctegory {
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: #5d5d5d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.ctegory .dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #5ba25b;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.about-card h3 {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2f3e2f;
+}
+
+
+.about-dots {
+  margin-top: 2rem;
+}
+
+.about-dots .dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #c5c5c5;
+  border-radius: 50%;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.about-dots .dot.active {
+  background: #f2e86d;
+}
