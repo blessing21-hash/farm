@@ -201,8 +201,118 @@
 
 
 
+// import React from "react";
+// import { Link } from "react-router-dom"; // import Link
+// import logo from "../../assets/logo.png";
+// import "./Navbar.css";
+
+// export default function Navbar() {
+//   return (
+//     <nav className="navbar">
+//       {/* Logo */}
+//       <div className="logo">
+//         <Link to="/">
+//           <img src={logo} alt="Agrimo Logo" />
+//         </Link>
+//       </div>
+      
+
+//       {/* Menu */}
+//       <ul className="menu">
+//         <li className="active">
+//           <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>• HOME</Link>
+//         </li>
+//         <li>
+//           <Link to="/pages" style={{ color: "inherit", textDecoration: "none" }}>• PAGES</Link>
+//         </li>
+//         <li>
+//           <Link to="/services" style={{ color: "inherit", textDecoration: "none" }}>• SERVICES</Link>
+//         </li>
+//         <li>
+//           <Link to="/portfolio" style={{ color: "inherit", textDecoration: "none" }}>• PORTFOLIO</Link>
+//         </li>
+//         <li>
+//           <Link to="/blog" style={{ color: "inherit", textDecoration: "none" }}>• BLOG</Link>
+//         </li>
+//         <li>
+//           <Link to="/contact" style={{ color: "inherit", textDecoration: "none" }}>• CONTACT US</Link>
+//         </li>
+//       </ul>
+
+//       {/* Right Section */}
+//       <div className="right">
+//         <div className="phone">📞 +1 (212) 255-511</div>
+//         <span className="search">🔍</span>
+         
+
+         
+//          {/* <div className="blessing">
+//               <Link to="/contact">
+//           <button className="contact-btn">Get In Touch</button>
+//               </Link>
+//          </div> */}
+//            <Link to="/contact">
+//            <button className="contact-btn">Get In Touch</button>
+//               </Link>
+//       </div>
+
+//       {/* <div className="blessing">
+//               <Link to="/contact">
+//           <button className="contact-btn">Get In Touch</button>
+//         </Link>
+//       </div> */}
+
+//     </nav>
+    
+//   );
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React from "react";
-import { Link } from "react-router-dom"; // import Link
+import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import "./Navbar.css";
 
@@ -215,16 +325,37 @@ export default function Navbar() {
           <img src={logo} alt="Agrimo Logo" />
         </Link>
       </div>
-      
 
       {/* Menu */}
       <ul className="menu">
         <li className="active">
           <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>• HOME</Link>
         </li>
-        <li>
-          <Link to="/pages" style={{ color: "inherit", textDecoration: "none" }}>• PAGES</Link>
+
+        {/* Dropdown Menu */}
+        <li className="dropdown">
+          <Link to="/pages" style={{ color: "inherit", textDecoration: "none" }}>
+            • PAGES ▾
+          </Link>
+          <ul className="dropdown-menu">
+            <li>
+              <Link to="/team" style={{ color: "inherit", textDecoration: "none" }}>
+                Our Team Members
+              </Link>
+            </li>
+            <li>
+              <Link to="/history" style={{ color: "inherit", textDecoration: "none" }}>
+                Our History
+              </Link>
+            </li>
+            <li>
+              <Link to="/faq" style={{ color: "inherit", textDecoration: "none" }}>
+                FAQ
+              </Link>
+            </li>
+          </ul>
         </li>
+
         <li>
           <Link to="/services" style={{ color: "inherit", textDecoration: "none" }}>• SERVICES</Link>
         </li>
@@ -243,31 +374,13 @@ export default function Navbar() {
       <div className="right">
         <div className="phone">📞 +1 (212) 255-511</div>
         <span className="search">🔍</span>
-         
-
-         
-         {/* <div className="blessing">
-              <Link to="/contact">
-          <button className="contact-btn">Get In Touch</button>
-              </Link>
-         </div> */}
-           <Link to="/contact">
-           <button className="contact-btn">Get In Touch</button>
-              </Link>
-      </div>
-
-      {/* <div className="blessing">
-              <Link to="/contact">
+        <Link to="/contact">
           <button className="contact-btn">Get In Touch</button>
         </Link>
-      </div> */}
-
+      </div>
     </nav>
-    
   );
 }
-
-
 
 
 

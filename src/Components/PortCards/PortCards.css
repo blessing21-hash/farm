@@ -1,0 +1,22 @@
+.port-cards {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;
+  gap: 1rem; /* space between images */
+  flex-wrap: wrap; /* makes them wrap on small screens */
+  padding: 20px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.port-cards img {
+  width: 20%;
+  height: 40vh;
+  object-fit: cover; /* keeps natural proportions while filling */
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.port-cards img:hover {
+  transform: scale(1.05);
+}

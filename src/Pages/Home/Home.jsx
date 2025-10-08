@@ -70,10 +70,13 @@ import ServicesSection from "../../Components/ServicesSection/ServicesSection";
 import FieldSection from "../../Components/FieldSection/FieldSection";
 import Testimonials from "../../Components/Testimonials/Testimonials";
 import HealthySection from "../../Components/HealthySection/HealthySection";
+import Pics from "../../Components/Pics/Pics"
 import HistorySection from "../../Components/HistorySection/HistorySection";
 import BlogSection from "../../Components/BlogSection/BlogSection";
+import AgriHeroSection from "../../Components/AgriHeroSection/AgriHeroSection";
 import Footer from "../../Components/Footer/Footer";
 import AboutSection from "../../Components/AboutSection/AboutSection";
+import ImageRow from "../../Components/ImageRow/ImageRow";
 
 export default function Home() {
   return (
@@ -85,9 +88,12 @@ export default function Home() {
       <AboutSection />
       <ServicesSection />
       <FieldSection />
+      <Pics />
       <Testimonials />
+      <ImageRow />
       <HealthySection />
       <HistorySection />
+      <AgriHeroSection />
       <BlogSection />
       <Footer />
     </div>

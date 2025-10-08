@@ -1,0 +1,22 @@
+.image-row {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;
+  gap: 7rem; /* space between images */
+  flex-wrap: wrap; /* makes them wrap on small screens */
+  padding: 20px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.image-row img {
+  width: 5%;
+  height: 10vh;
+  object-fit: cover; /* keeps natural proportions while filling */
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.image-row img:hover {
+  transform: scale(1.05);
+}

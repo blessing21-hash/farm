@@ -62,7 +62,9 @@ import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
 import Services from "./Pages/Services/Services"
 import Blog from "./Pages/Blog/Blog";
+import Portfolio from "./Pages/Portfolio/Portfolio"
 import Contact from "./Pages/Contact/Contact";
+import Faq from "./Pages/About/Faq"
 import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
@@ -73,7 +75,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/pages" element={<About />} />
         <Route path="/services" element={<Services />} />
-        {/* <Route path="/portfolio" element={<Portfolio />} /> */}
+        <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

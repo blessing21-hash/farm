@@ -1,0 +1,82 @@
+.agri-hero {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 1200px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Dark overlay */
+.agri-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Content area */
+.agri-hero-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+
+/* Circle icon */
+.agri-icon-circle {
+  background-color: #f5d94c;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.agri-icon-circle img {
+  width: 45px;
+  height: 45px;
+}
+
+/* Text */
+.agri-hero-content h1 {
+  flex: 1;
+  margin: 0 2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+/* Button */
+.discover-btn {
+  background: white;
+  color: #000;
+  border: none;
+  border-radius: 40px;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.discover-btn span {
+  font-size: 1.2rem;
+  transition: transform 0.2s ease;
+}
+
+.discover-btn:hover span {
+  transform: translateX(3px);
+}
